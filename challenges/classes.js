@@ -26,7 +26,7 @@ class CuboidMaker {
     volume() {
         return `${this.length * this.width * this.height}`;
     }
-    sufaceArea() {
+    surfaceArea() {
         return (2 * `${this.length * this.width + this.length * this.height + this.width * this.height}`);
     }
 }
